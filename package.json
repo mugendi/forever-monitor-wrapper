@@ -5,7 +5,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "forever",
+    "process",
+    "monitor",
+    "wrapper"
+  ],
   "author": "Anthony Mugendi <ngurumugz@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -13,6 +18,13 @@
     "forever-monitor": "^3.0.3"
   },
   "devDependencies": {},
-  "keywords" :["forever", "process","monitor", "wrapper"],
-  "description": "Convenient wrapper around forever-monitor to do fancy things like telling forever to kill master process"
+  "description": "Convenient wrapper around forever-monitor to do fancy things like telling forever to kill master process",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugendi/forever-monitor-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mugendi/forever-monitor-wrapper/issues"
+  },
+  "homepage": "https://github.com/mugendi/forever-monitor-wrapper#readme"
 }
