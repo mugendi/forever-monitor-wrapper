@@ -1,0 +1,18 @@
+{
+  "name": "forever-monitor-wrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "forever-monitor": "^3.0.3"
+  },
+  "devDependencies": {},
+  "keywords" :["forever", "process","monitor", "wrapper"],
+  "description": "Convenient wrapper around forever-monitor to do fancy things like telling forever to kill master process"
+}
